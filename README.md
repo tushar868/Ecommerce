@@ -61,8 +61,8 @@ Follow these steps carefully to set up and run the project locally on your machi
 
 1. Clone the Repository
 ```bash
-git clone https://github.com/tushar868/ecommerce-clone.git
-cd ecommerce-clone
+git clone https://github.com/tushar868/ecommerce.git
+cd ecommerce
 ```
 
 2. Install Dependencies
