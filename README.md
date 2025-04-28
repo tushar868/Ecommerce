@@ -1,12 +1,53 @@
-# React + Vite
+# 🛒 E-Commerce React Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, modern, and professional **E-commerce Frontend** built using **React.js**, **Firebase Authentication**, and **Bootstrap** for responsive design.  
+Users can browse products, search/filter, add to cart, checkout securely, and manage their orders — with **Login via Email/Password or Google**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+👉 [View Project Live Here](https://ecommerce-t.netlify.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📋 Features
+
+- 🏠 Home Page with Product Grid
+- 🔍 Search Products by Name
+- 📂 Filter Products by Category
+- 📄 Product Details Page
+- 🛍️ Add/Remove Products from Cart
+- 🧾 Checkout Form (Login Required)
+- 🔐 User Authentication (Email/Password + Google Sign-in)
+- 👤 My Account Page (User Info)
+- 📦 My Orders Page (Order History)
+- 🚪 Logout functionality
+- 📱 Fully Responsive (Bootstrap 5)
+- 🎨 Custom Styled Buttons for Modern UI
+
+---
+
+## 🛠 Tech Stack Used
+
+- **React.js** (Frontend)
+- **React Router Dom** (Routing)
+- **Context API** (Global State Management: Cart, Auth, Orders)
+- **Firebase Authentication** (Login/Signup/Google Sign-In)
+- **Bootstrap 5** (Responsive Styling)
+- **Netlify** (Hosting)
+
+---
+
+## 📁 Folder Structure
+
+```plaintext
+src/
+  api/             # Product fetching (Platzi Fake API)
+  components/      # Navbar
+  context/         # AuthContext, CartContext, OrderContext
+  firebase/        # Firebase configuration
+  pages/           # Home, Cart, ProductDetail, Checkout, Login, Signup, MyAccount, MyOrders
+  App.jsx          # Route setup
+  main.jsx         # React root file
+  index.css        # Custom styles (button styles, background)
