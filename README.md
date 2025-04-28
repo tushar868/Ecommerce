@@ -53,6 +53,8 @@ src/
   index.css        # Custom styles (button styles, background)
 ```
 
+---
+
 ## 🛠️ Setup Instructions for E-Commerce React Project
 
 Follow these steps carefully to set up and run the project locally on your machine.
