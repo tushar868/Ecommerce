@@ -51,3 +51,31 @@ src/
   App.jsx          # Route setup
   main.jsx         # React root file
   index.css        # Custom styles (button styles, background)
+
+
+# 🛠️ Setup Instructions for E-Commerce React Project
+
+Follow these steps carefully to set up and run the project locally on your machine.
+
+---
+
+## 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/ecommerce-clone.git
+cd ecommerce-clone
+
+## 2. Clone the Repository
+
+```bash
+npm install
+
+## 3. Run the Development Server
+
+```bash
+npm run dev
+
+
+
+
+
