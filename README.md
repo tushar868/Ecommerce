@@ -74,8 +74,7 @@ npm run dev
 ```
 Open your browser and visit:
 ```bash
-[npm run dev](http://localhost:5173/
-)
+http://localhost:5173/
 ```
 
 
